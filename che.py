@@ -12,26 +12,7 @@ from googletrans import Translator
 #==============================================================================#
 botStart = time.time()
 
-# Oke Aku Kasih Tau ya
-# Biar kalian gak nanya lagii
-# Selfpython3 ini pake token Desktopwin
-# Mau ganti token.ubah aja di linepy
-# Trus config.py ubah token semau kalian.
-# Biar jelas dan gak nanya lagii
-# Script free tinggal pake aja kok
-# Hargai saya stah jangan di ganti mid nya
-# Tambahin aja mid kalian
-# Mau nanya seputar bot
-# Add me [ID LINE] http://line.me/ti/p/%40ryp6149l
-
-#Galank = LINE()
-Galank = LINE("TOKENMU BEB")
-#Galank = LINE("Email","Password")
-#Galank = LINE()
-Galank.log("Auth Token : " + str(Galank.authToken))
-channelToken = Galank.getChannelResult()
-Galank.log("Channel Token : " + str(channelToken))
-
+Galank = LINE()
 readOpen = codecs.open("read.json","r","utf-8")
 settingsOpen = codecs.open("temp.json","r","utf-8")
 
