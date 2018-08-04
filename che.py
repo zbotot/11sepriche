@@ -12,7 +12,7 @@ from googletrans import Translator
 #==============================================================================#
 botStart = time.time()
 
-Galank = LINE()
+Galank = LINE("EvtmOu3zwUNO2ABRiTqf.K9hUseF6j4f/WE5DLTHHBW.+0itw9kRTkeHOLOcyxXsmoZ2cMk+B8Jyjo33/X12K3E=")
 readOpen = codecs.open("read.json","r","utf-8")
 settingsOpen = codecs.open("temp.json","r","utf-8")
 
